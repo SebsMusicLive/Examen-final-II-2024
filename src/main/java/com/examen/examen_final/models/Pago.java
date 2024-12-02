@@ -17,5 +17,5 @@ public class Pago {
     private int tipo_pago_id;
     private String tarjeta_tipo;
     private int cuotas;
-    private BigDecimal valor;
+    private long valor;
 }
