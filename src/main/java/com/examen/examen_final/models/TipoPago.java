@@ -6,12 +6,11 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name = "cliente")
+@Table(name = "tipo_pago")
 @Data
-public class Cliente {
+public class TipoPago {
     @Id
     private int id;
     private String nombre;
-    private String documento;
-    private int tipo_documento_id;
+
 }
