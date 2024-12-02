@@ -1,0 +1,44 @@
+{
+    "impuesto":5,
+    "cliente": 
+    {
+    "documento":"10000001",
+    "nombre":"Juan Pérez",
+    "tipo_documento":"CC"
+    },
+
+    "productos": 
+    [
+    {"referencia":"ELEC001",
+    "cantidad": 2,
+    "descuento": 10},
+    {"referencia":"ELEC002",
+    "cantidad": 1,
+    "descuento": 0},
+    {"referencia":"ELEC003",
+    "cantidad": 10,
+    "descuento": 10}
+    ],
+    "medios_pago":
+    [
+    {"tipo_pago":"TARJETA CREDITO",
+    "tipo_tarjeta":"MASTERCARD",
+    "cuotas":1,
+    "valor":4000},
+    {"tipo_pago":"TARJETA DEBITO",
+    "tipo_tarjeta":"VISA",
+    "valor":2368
+    },
+    {"tipo_pago":"BITCOIN",
+    "valor":1360
+    }
+    ],
+    "vendedor":
+    {
+    "documento":"10101010"
+    },
+    "cajero":
+    {
+    "token":"token123"
+    }
+   }
