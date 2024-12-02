@@ -5,9 +5,12 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name = "tipo_documento")
+@Table(name = "vendedor")
 @Data
-public class TipoDocumento {
+public class Vendedor {
+
     private int id;
     private String nombre;
+    private String documento;
+    private String email;
 }
